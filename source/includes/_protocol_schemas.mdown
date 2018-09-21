@@ -34,7 +34,7 @@ This describes a listing for purchase on the Origin marketplace.
 |**listingType** | Must be set to `unit` |
 |**category** | A category/schema key string from the DApp. See possible values [here](https://github.com/OriginProtocol/origin-dapp/tree/master/src/schemaMessages)  |
 |**subCategory** | A subcategory key string from a schema in the DApp. See possible values inside each DApp schema [here](https://github.com/OriginProtocol/origin-dapp/tree/master/src/schemaMessages)
-|**language** | A single language or local tag that the listing text is written in. |
+|**language** | A single language or locale tag that the listing text is written in. |
 |**title** | The short title of the listing |
 |**description** | A full textual description of the listing. Linebreaks are currently ignored, though this will change. |
 |**price** | For currencies, we support `ETH`, with future plans to support any ERC20 token |
