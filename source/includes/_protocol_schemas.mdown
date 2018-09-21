@@ -19,10 +19,10 @@ This describes a listing for purchase on the Origin marketplace.
         {url: "ipfs://Ac92fa25B89D37077C7e52BDae22094f7b864e91"},
         {url: "ipfs://C9a2fa25B89D37045C7e52BDae22094f7b864b82"},
     ],
-    price: {amount: 48.7, currency: "ETH"},
+    price: {amount: "48.7", currency: "ETH"},
     unitsTotal: 1,
-    securityDeposit: {amount: 500, currency: "OGN"},
-    commission: {amount: 500, currency: "OGN"},
+    securityDeposit: {amount: "500", currency: "OGN"},
+    commission: {amount: "500", currency: "OGN"},
 }
 ```
 
@@ -59,8 +59,8 @@ An Offer is sent by a buyer to make a purchase from a listing.
     schemaId: "http://schema.originprotocol.com/offer_v1.0.0",
     listingType: "unit",
     unitsPurchased: 1,
-    totalPrice: {amount: 48.7, currency: "ETH"},
-    commission: {amount: 500, currency: "OGN"}
+    totalPrice: {amount: "48.7", currency: "ETH"},
+    commission: {amount: "500", currency: "OGN"}
 }
 ```
 
