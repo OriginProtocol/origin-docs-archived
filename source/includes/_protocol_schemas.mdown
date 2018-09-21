@@ -21,7 +21,6 @@ This describes a listing for purchase on the Origin marketplace.
     ],
     price: {amount: "48.7", currency: "ETH"},
     unitsTotal: 1,
-    securityDeposit: {amount: "500", currency: "OGN"},
     commission: {amount: "500", currency: "OGN"},
 }
 ```
@@ -46,8 +45,7 @@ This describes a listing for purchase on the Origin marketplace.
 |----|-----|
 |expiry | A date that this listing should no longer show in search results. This is suggestion and search engines may ignore it.|
 |media | A list of media elements to be shown with the listing. We currently only support **images** on the **ipfs://** protocol.|
-|securityDeposit| **UNSAFE FIELD - this data duplicates, and may not match, the actual blockchain contract amount.** The currency must be `OGN`. |
-|commission | This is the amount the seller is willing to pay the DApp that sells the listing user after the sale is complete. It should be set to equal to, or less than the deposit amount. The currency must be `OGN`.|
+|commission | This is the amount the seller is willing to pay the DApp that sells the listing user after the sale is complete. The currency must be `OGN`. This money comes out of the deposit amount the seller puts into the listing. Note that the deposit amount may very well be too low to actualy pay the commission - this must be checked for before trusting the commission.|
 
 
 ## Offer Schema
