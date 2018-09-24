@@ -107,12 +107,6 @@ In v1.0.0, this schema contains no useful required fields, and is placeholder fo
 |**schemaId** | Must be set to `http://schema.originprotocol.com/listing-withdraw_v1.0.0` |
 
 
-## Notification Schema
-
-```javascript
-```
-The following fields are required: **id**, **type** and **status**
-
 ## Offer-Accept Schema
 
 In v1.0.0, this schema contains no useful required fields, and is placeholder for future expansion. 
