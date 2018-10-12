@@ -1,5 +1,5 @@
-First pull request? Read our [guide to contributing](http://docs.originprotocol.com/#contributing)
+⚠️ **WARNING** ⚠️
 
-### Description:
+This repository has been deprecated!
 
-Please explain the changes you made here
+Please create all new pull requests in [OriginProtocol/origin](https://github.com/OriginProtocol/origin/compare).
